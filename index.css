@@ -1,0 +1,362 @@
+body {
+    height: 5000px;
+    background-color: #d3cbcb;
+}
+
+/* Cabecalho */
+
+/* Corpo1 */
+
+#cabecalho {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 20px;
+    margin-left:  170px;   
+}
+
+#corpo {
+    display: flex;
+
+}
+
+.titulo {
+    margin-left: 630px;
+}
+
+.descricao_titulo {
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 20px;
+}
+
+.botao1 {
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    width: 110px;
+    background-color:  #d2623e;
+    display: inline-block;
+    color: white;
+    margin-top: 130px;
+    left: 45%;
+}
+
+.imagem_meio {
+    position: absolute;
+    top: 350px;
+    left: 200px;
+}
+
+/* Final do corpo 1 */
+
+/* Inicio do corpo 2 */
+
+#corpo2 {
+    display: flex;
+    position: absolute;
+}
+
+.titulo2 {
+    margin-top: 1200px;
+    margin-left: 450px;
+    font-size: 40px;
+}
+
+#servicos {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 1400px;
+    margin-left: 200px;
+    gap: 300px; 
+    white-space: nowrap;
+
+}
+s
+#descricao_servicos {
+    display: flex;
+   justify-content: space-between;
+}
+
+.descricao_servico1 {
+    margin-top: 1500px;
+    position: relative;
+    left: -210%;
+    font-size: 18px;
+}
+
+
+.descricao_servico2 {
+    position: relative;
+    left: -80%;
+    top: -40px;
+    font-size: 18px;
+}
+
+.descricao_servico3 {
+    position: relative;
+    font-size: 18px;
+    top: -5%;
+    left: 40%;
+}
+
+#botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao2 {
+    position: absolute;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    width: 110px;
+    background-color:  #d2623e;
+    display: inline-block;
+    color: white;
+    margin-top: 1700px;
+    left: 15%;
+}
+
+.botao3 {
+    position: absolute;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    width: 110px;
+    background-color:  #d2623e;
+    display: inline-block;
+    color: white;
+    margin-top: 1700px;
+    left: 55%;
+}
+
+.botao4 {
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    width: 110px;
+    background-color:  #d2623e;
+    display: inline-block;
+    color: white;
+    margin-top: 1700px;
+    left: 88%;
+}
+/* Final do corpo 2 */
+/* Inicio do Corpo 3 */
+
+#corpo3 {
+    display: flex;
+    position: absolute;
+}
+
+.titulo3 {
+    margin-top: 2000px;
+    margin-left: 550px;
+    display: inline-block;
+}
+
+.descricao3 {
+    margin-top: 2100px;
+    font-size: 17px;
+    margin-left: -400px;
+}
+
+.imagem_corpo3 {
+    display: flex;
+    position: relative;
+    margin-top: 2300px;
+    left: -50px;
+}
+
+.titulo_corpo3 {
+    display: flex;
+    position: absolute;
+    margin-top: 2450px;
+    left: 50px;
+    
+}
+
+.vantagens1 {
+    display: flex;
+    position: absolute;
+    margin-top: 2500px;
+    display: inline-block;
+    left: 25px;
+}
+
+.imagem2_corpo3 {
+    display: flex;
+    position: absolute;
+    margin-top: 2800px;
+    left: 100px;
+    
+}
+
+.titulo2_corpo3 {
+    display: flex;
+    position: absolute;
+    margin-top: 2900px;
+    display: inline-block;
+    left: 800px;
+}
+
+.desvantagens1 {
+    display: flex;
+    position: absolute;
+    margin-top: 2950px;
+    left: 780px;
+    display: inline-block;
+}
+
+.botao5 {
+    display: flex;
+    position: absolute;
+    margin-top: 3150px;
+    margin-left: -850px;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    width: 200px;
+    background-color:  #d2623e;
+    display: inline-block;
+    color: white;
+}
+
+/* Fim do corpo 3 */
+/* Inicio do corpo 4 */
+
+#corpo4 {
+    display: flex;
+}
+
+.titulo4 {
+    position: absolute;
+    margin-top: 3400px;
+    left: 550px;
+}
+
+.descricao4 {
+    position: absolute;
+    margin-top: 3500px;
+    left: 300px;
+    font-size: 20px;
+}
+
+.imagem4 {
+    position: absolute;
+    margin-top: 3600px;
+    left: 800px;
+}
+
+.direitos1 {
+    margin-top: 3800px;
+    margin-left: 100px;
+}
+
+.descricao_vantagens1 {
+    margin-left: 70px;
+}
+
+.imagem5_corpo4 {
+    position: absolute;
+    margin-top: 4200px;
+    left:  100px;
+}
+
+.titulo5 {
+    position: relative;
+    margin-top: 4400px;
+    left: 450px;
+}
+
+.descricao_vantagens2 {
+    position: relative;
+    left: 430px;
+}
+
+.botao6 {
+    position: absolute;
+    left: 700px;
+    margin-top:  150px;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    width: 200px;
+    background-color:  #d2623e;
+    display: inline-block;
+    color: white;
+}
+
+/* Fim do corpo 4 */
+/* Inicio do corpo 5 */
+
+#corpo5 {
+    display: flex;
+}
+
+.titulo6 {
+    margin-top: 300px;
+    margin-left: 680px;
+
+}
+
+
+.descricao5 {
+    margin-left: 400px;
+    font-size: 20px;
+}
+
+.imagem6_corpo5 {
+    position: relative;
+    margin-top: 500px;
+    margin-left: -400px;
+}
+
+.titulo7 {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: -1200px;
+}
+
+.descricao_vantagens3 {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: -1220px;
+}
+
+.imagem7_corpo5 {
+    margin-top: 1000px;
+    margin-left: -1200px;
+    position: absolute;
+}
+
+.titulo8 {
+    margin-top: 1200px;
+    margin-left: -400px;
+    position: relative;
+}
+
+.descricao_desvantagens {
+    position: relative;
+    margin-left: -430px;
+}
+
+.botao7 {
+    position: relative;
+    margin-left: -630px;
+    margin-top: 100px;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    width: 200px;
+    background-color:  #d2623e;
+    display: inline-block;
+    color: white;
+}
